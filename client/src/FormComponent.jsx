@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, Button, DropdownSingle, Checkbox, RadioButton, DatePicker } from 'oolib';
 
-const componentMap = {
+const componentMap = { // The comp names in JSON aren't matching with the oolib comps, so wanted to figure out what the right names would be. Couldn't get to debugging stage.
     TextInput: Input,
     DropdownSingle: DropdownSingle,
     CheckboxList: Checkbox,
